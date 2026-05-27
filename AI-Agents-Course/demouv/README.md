@@ -21,7 +21,11 @@ uv venv --remove     # remove the venv
 - Activate the created venv (PowerShell):
 
 ```powershell
-.\.venv\Scripts\Activate.ps1
+.venv\Scripts\Activate
+```
+
+```cmd
+.venv\Scripts\activate.bat
 ```
 
 - Add a dependency (and update lock/metadata):
